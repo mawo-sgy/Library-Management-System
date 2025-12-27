@@ -10,9 +10,9 @@ public class Student extends Person{
         this.department = department;
     }
 
-//    Student(){
-//        super();
-//    }
+    Student(){
+        super();
+    }
 
     public String getUniversity() {
         return university;

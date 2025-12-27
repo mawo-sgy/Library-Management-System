@@ -5,12 +5,12 @@ public abstract class Person {
     private String id;
     private int age;
 
-//    Person(){
-//        this.firstName = "Not provided";
-//        this.lastName = "Not provided";
-//        this.id = "Not provided";
-//        this.age = 0;
-//    }
+    Person(){
+        this.firstName = "Not provided";
+        this.lastName = "Not provided";
+        this.id = "Not provided";
+        this.age = 0;
+    }
 
     Person(String firstName, String lastName, String id, int age){
         this.firstName = firstName;
